@@ -33,7 +33,7 @@
 - 🔌 **本机有什么 Agent 就用什么。** 自动发现 Claude Code、Codex、Cursor、Gemini、opencode、Trae、Pi 等 ACP Agent，只列出本机真装了 CLI 的。
 - 💬 **飞书里直接 @ 它。** 私聊或群里 @ 机器人，过程和结果实时回写成一张卡片；多个 Agent 能在同一个群里互相发现、交接。
 - 🖥️ **一个 Web 工作台看全部。** 流式 Markdown、工具调用、权限请求、终端输出都持久化在 SQLite；排队、中断、重试一键完成；手机扫码就能接着聊。
-- 🧩 **可以当执行底座接入。** 完整的 HTTP + SSE 接口，断线可续传，适合做上层多 Agent 平台的执行层。
+- 🔁 **一整套服务 CLI，能自我迭代。** `agent-dock` 以后台服务运行，`start`、`stop`、`restart`、`update`、开机 `autostart` 一应俱全；Agent 也用同一个 CLI 派活、注册定时任务、挂 watch、给会话发消息。`agent-dock dev up` 会用仓库构建产物起一个隔离沙箱（独立 HOME、数据库、端口），Agent 可以直接改 AgentDock 自己的代码并端到端验证，最后把一行升级命令交给你；CLI 会拦住它重启正在运行自己的 daemon。要接平台也有完整的 HTTP + SSE 接口，断线可续传。
 - 🛡️ **门禁和白名单在界面里配。** 高危操作拦截、成员白名单、控制台访问凭证，不用改配置文件。
 
 ## 快速开始
