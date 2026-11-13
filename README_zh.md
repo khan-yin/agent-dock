@@ -1,9 +1,8 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/banner-zh-dark.svg">
-  <img src="docs/assets/readme/banner-zh-light.svg" alt="AgentDock：把 Agent 停靠在你自己的电脑上" width="100%">
-</picture>
+<img src="docs/assets/readme/agentdock-cat.svg" alt="AgentDock 小猫" width="120">
+
+<h1>AGENTDOCK</h1>
 
 [English](README.md) · 简体中文
 
@@ -20,9 +19,9 @@
 
 <br>
 
-<a href="docs/assets/readme/agentdock-intro.mp4"><img src="docs/assets/readme/video-cover.webp" alt="AgentDock 60 秒视频导览" width="100%"></a>
+<a href="docs/assets/readme/agentdock-intro-en.mp4"><img src="docs/assets/readme/video-cover-en.webp" alt="AgentDock 60 秒视频导览" width="100%"></a>
 
-<p align="center"><sub>点击封面观看 60 秒视频导览。视频、动图和截图都录自真实运行的 AgentDock，Agent 输出未经编辑。</sub></p>
+<p align="center"><sub>点击封面观看 60 秒视频导览，片中的界面截自真实运行的 AgentDock。</sub></p>
 
 ## 能做什么
 
@@ -78,18 +77,7 @@ pnpm build
 
 ## 界面一览
 
-<table>
-<tr>
-<td width="50%"><b>一句话派活</b><br><sub>Claude Code 在 25 秒内修好 <code>remaining()</code> 并补上 5 个单测</sub><br><br><img src="docs/assets/readme/demo-fix.gif" alt="让 Claude Code 修 bug 并补测试"></td>
-<td width="50%"><b>小猫主会话</b><br><sub>认领「团子」，它拆成两张便签派出去，跑完后逐条验收</sub><br><br><img src="docs/assets/readme/demo-kitten.gif" alt="小猫主会话派活并验收"></td>
-</tr>
-<tr>
-<td><b>便签抽屉</b><br><sub>待验收、进行中、已完成，一眼看清</sub><br><br><img src="docs/assets/readme/shot-kitten-notes.webp" alt="便签抽屉"></td>
-<td><b>暗色主题</b><br><sub>流式 Markdown、代码高亮、工具调用轨迹</sub><br><br><img src="docs/assets/readme/shot-session-dark.webp" alt="暗色主题的会话页"></td>
-</tr>
-</table>
-
-<p align="center"><img src="docs/assets/readme/shot-mobile.webp" alt="手机端" width="260"><br><sub>手机扫码，随时接着聊</sub></p>
+<p align="center"><img src="docs/assets/readme/agentdock-tour.gif" alt="AgentDock 功能一览：一个工作台、飞书、小猫主会话、手机审批、开放 API" width="100%"></p>
 
 ## 工作原理
 

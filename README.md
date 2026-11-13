@@ -1,9 +1,8 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/banner-en-dark.svg">
-  <img src="docs/assets/readme/banner-en-light.svg" alt="AgentDock: dock your coding agents on your own machine" width="100%">
-</picture>
+<img src="docs/assets/readme/agentdock-cat.svg" alt="AgentDock kitten" width="120">
+
+<h1>AGENTDOCK</h1>
 
 English · [简体中文](README_zh.md)
 
@@ -22,7 +21,7 @@ English · [简体中文](README_zh.md)
 
 <a href="docs/assets/readme/agentdock-intro-en.mp4"><img src="docs/assets/readme/video-cover-en.webp" alt="AgentDock 60-second video tour" width="100%"></a>
 
-<p align="center"><sub>Click the cover for a 60-second video tour. The video, GIFs and screenshots were all recorded from a real AgentDock run; the agent output is unedited.</sub></p>
+<p align="center"><sub>Click the cover for a 60-second video tour. The app screens inside come from a real AgentDock run.</sub></p>
 
 ## Features
 
@@ -78,18 +77,7 @@ Open **Lark settings → Create bot by QR code** in the bottom-left corner, scan
 
 ## Tour
 
-<table>
-<tr>
-<td width="50%"><b>Ask in one line</b><br><sub>Claude Code fixes <code>remaining()</code> and adds 5 unit tests in 25 seconds</sub><br><br><img src="docs/assets/readme/demo-fix.gif" alt="Claude Code fixes a bug and adds tests"></td>
-<td width="50%"><b>Kitten main session</b><br><sub>Adopt "Dango"; it dispatches two sticky notes and reviews each result</sub><br><br><img src="docs/assets/readme/demo-kitten.gif" alt="The kitten main session dispatches and reviews work"></td>
-</tr>
-<tr>
-<td><b>Sticky-note drawer</b><br><sub>Needs review, running and done at a glance</sub><br><br><img src="docs/assets/readme/shot-kitten-notes.webp" alt="Sticky-note drawer"></td>
-<td><b>Dark mode</b><br><sub>Streaming Markdown, code highlighting, tool-call traces</sub><br><br><img src="docs/assets/readme/shot-session-dark.webp" alt="A session in dark mode"></td>
-</tr>
-</table>
-
-<p align="center"><img src="docs/assets/readme/shot-mobile.webp" alt="Mobile view" width="260"><br><sub>Scan the QR code and keep going from your phone</sub></p>
+<p align="center"><img src="docs/assets/readme/agentdock-tour.gif" alt="AgentDock tour: one dock, Lark, kitten main session, mobile approval, open API" width="100%"></p>
 
 ## How it works
 
