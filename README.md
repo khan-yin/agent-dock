@@ -30,7 +30,7 @@ English · [简体中文](README_zh.md)
 
 - 🐾 **Adopt a kitten as your main session.** Say what you need; it splits the work into sticky notes, hands each one to a side session, follows up, reviews the results, and only pings you when it needs you.
 - ⏳ **Kittens grow old, then hand over.** As the main session piles up context and compactions, the kitten ages from kitten to elder. When it gets tired it asks you to start a handoff: a new kitten is born and inherits the unfinished notes, so long-running work never chokes on a bloated context.
-- 🔌 **Use the agents you already have.** Claude Code, Codex, Cursor, Gemini, opencode, Trae, Pi and other ACP agents are discovered automatically. Only CLIs actually installed on your machine show up.
+- 🔌 **Agent discovery.** Claude Code, Codex, Cursor, Gemini, opencode, Trae, Pi and other ACP agents are discovered automatically. Only CLIs actually installed on your machine show up.
 - 💬 **Mention it in Lark.** DM the bot or @ it in a group; progress and results stream into a single card. Several agents can find each other and hand off work in the same group.
 - 🖥️ **One web console for everything.** Streaming Markdown, tool calls, permission requests and terminal output are stored in SQLite. Queue, interrupt or retry with one click, and scan a QR code to continue from your phone.
 - 🔁 **Service CLI with recursive self-improvement (RSI).** A full daemon lifecycle (`start` / `stop` / `restart` / `update` / `autostart`) that agents drive too. `agent-dock dev up` gives them an isolated sandbox to improve AgentDock itself and verify end to end, without ever restarting the daemon they run in. HTTP + SSE API included.

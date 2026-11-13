@@ -30,7 +30,7 @@
 
 - 🐾 **认领一只小猫当主会话。** 你只管说需求，它拆成便签、派给侧边会话去干、盯进度、逐条验收，有事才来找你。
 - ⏳ **小猫会变老，会提醒你换代。** 主会话的上下文和压缩次数越攒越多，小猫就从幼猫长到老年；累了会主动请你发起交接，新猫出生并接手没做完的便签，长期运行也不会被臃肿的上下文拖垮。
-- 🔌 **本机有什么 Agent 就用什么。** 自动发现 Claude Code、Codex、Cursor、Gemini、opencode、Trae、Pi 等 ACP Agent，只列出本机真装了 CLI 的。
+- 🔌 **Agent 自动发现。** 支持 Claude Code、Codex、Cursor、Gemini、opencode、Trae、Pi 等 ACP Agent，只列出本机真装了 CLI 的。
 - 💬 **飞书里直接 @ 它。** 私聊或群里 @ 机器人，过程和结果实时回写成一张卡片；多个 Agent 能在同一个群里互相发现、交接。
 - 🖥️ **一个 Web 工作台看全部。** 流式 Markdown、工具调用、权限请求、终端输出都持久化在 SQLite；排队、中断、重试一键完成；手机扫码就能接着聊。
 - 🔁 **服务化 CLI，支持递归自我改进（RSI）。** 完整的守护进程生命周期（`start` / `stop` / `restart` / `update` / `autostart`），Agent 也能调用。`agent-dock dev up` 提供隔离沙箱，让 Agent 改进 AgentDock 自身并端到端验证，且绝不重启自己所在的 daemon。另附 HTTP + SSE 接口。
