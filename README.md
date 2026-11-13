@@ -33,7 +33,7 @@ English · [简体中文](README_zh.md)
 - 🔌 **Use the agents you already have.** Claude Code, Codex, Cursor, Gemini, opencode, Trae, Pi and other ACP agents are discovered automatically. Only CLIs actually installed on your machine show up.
 - 💬 **Mention it in Lark.** DM the bot or @ it in a group; progress and results stream into a single card. Several agents can find each other and hand off work in the same group.
 - 🖥️ **One web console for everything.** Streaming Markdown, tool calls, permission requests and terminal output are stored in SQLite. Queue, interrupt or retry with one click, and scan a QR code to continue from your phone.
-- 🔁 **A full service CLI that can improve itself.** `agent-dock` runs as a background service with `start`, `stop`, `restart`, `update` and login `autostart`, and agents drive it from the same CLI: dispatch tasks, schedule prompts, set watches, message sessions. For self-improvement, `agent-dock dev up` builds an isolated sandbox from the repo (own HOME, database and port), so an agent can change AgentDock itself, verify end to end, and hand you a one-line upgrade. The CLI refuses to restart the daemon the agent is running in. Need an API instead? There is a full HTTP + SSE interface with resumable streams.
+- 🔁 **Service CLI with recursive self-improvement (RSI).** A full daemon lifecycle (`start` / `stop` / `restart` / `update` / `autostart`) that agents drive too. `agent-dock dev up` gives them an isolated sandbox to improve AgentDock itself and verify end to end, without ever restarting the daemon they run in. HTTP + SSE API included.
 - 🛡️ **Guardrails in the UI.** Block risky commands, allowlist members and protect the console without touching config files.
 
 ## Get started
