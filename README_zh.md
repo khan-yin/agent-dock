@@ -1,8 +1,9 @@
 <div align="center">
 
-<img src="docs/assets/readme/agentdock-cat.svg" alt="AgentDock 小猫" width="120">
-
-<h1>AGENTDOCK</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/agentdock-logo-dark.svg">
+  <img src="docs/assets/readme/agentdock-logo-light.svg" alt="AgentDock" width="520">
+</picture>
 
 [English](README.md) · 简体中文
 
