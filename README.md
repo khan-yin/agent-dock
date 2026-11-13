@@ -13,7 +13,7 @@ English · [简体中文](README_zh.md)
 
 **Mention it in Lark, type in the web console, or call the HTTP API. Claude Code and Codex get to work in your local workspace, and you watch every step live.**
 
-[Get started](#get-started) · [Features](#features) · [Tour](#tour) · [How it works](#how-it-works) · [Full guide (Chinese)](docs/guide.zh-CN.md)
+[Get started](#get-started) · [Features](#features) · [How it works](#how-it-works) · [Full guide (Chinese)](docs/guide.zh-CN.md)
 
 </div>
 
@@ -25,7 +25,10 @@ English · [简体中文](README_zh.md)
 
 ## Features
 
+<p align="center"><img src="docs/assets/readme/agentdock-features.gif" alt="AgentDock features at a glance" width="100%"></p>
+
 - 🐾 **Adopt a kitten as your main session.** Say what you need; it splits the work into sticky notes, hands each one to a side session, follows up, reviews the results, and only pings you when it needs you.
+- ⏳ **Kittens grow old, then hand over.** As the main session piles up context and compactions, the kitten ages from kitten to elder. When it gets tired it asks you to start a handoff: a new kitten is born and inherits the unfinished notes, so long-running work never chokes on a bloated context.
 - 🔌 **Use the agents you already have.** Claude Code, Codex, Cursor, Gemini, opencode, Trae, Pi and other ACP agents are discovered automatically. Only CLIs actually installed on your machine show up.
 - 💬 **Mention it in Lark.** DM the bot or @ it in a group; progress and results stream into a single card. Several agents can find each other and hand off work in the same group.
 - 🖥️ **One web console for everything.** Streaming Markdown, tool calls, permission requests and terminal output are stored in SQLite. Queue, interrupt or retry with one click, and scan a QR code to continue from your phone.
@@ -74,10 +77,6 @@ pnpm build
 Open **Lark settings → Create bot by QR code** in the bottom-left corner, scan with Lark to authorize, then pick a workspace and an agent. After that, DM the bot or @ it in a group. Permissions, group collaboration and risky-command gates are covered in the [full guide](docs/guide.zh-CN.md#飞书接入) (Chinese).
 
 </details>
-
-## Tour
-
-<p align="center"><img src="docs/assets/readme/agentdock-tour.gif" alt="AgentDock tour: one dock, Lark, kitten main session, mobile approval, open API" width="100%"></p>
 
 ## How it works
 

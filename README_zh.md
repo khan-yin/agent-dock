@@ -13,7 +13,7 @@
 
 **飞书 @ 一下、Web 里说一句、HTTP 调一次 —— Claude Code、Codex 就在你的本地工作区开工，过程实时可见。**
 
-[快速开始](#快速开始) · [能做什么](#能做什么) · [界面一览](#界面一览) · [工作原理](#工作原理) · [完整手册](docs/guide.zh-CN.md)
+[快速开始](#快速开始) · [能做什么](#能做什么) · [工作原理](#工作原理) · [完整手册](docs/guide.zh-CN.md)
 
 </div>
 
@@ -25,7 +25,10 @@
 
 ## 能做什么
 
+<p align="center"><img src="docs/assets/readme/agentdock-features.gif" alt="AgentDock 功能一览" width="100%"></p>
+
 - 🐾 **认领一只小猫当主会话。** 你只管说需求，它拆成便签、派给侧边会话去干、盯进度、逐条验收，有事才来找你。
+- ⏳ **小猫会变老，会提醒你换代。** 主会话的上下文和压缩次数越攒越多，小猫就从幼猫长到老年；累了会主动请你发起交接，新猫出生并接手没做完的便签，长期运行也不会被臃肿的上下文拖垮。
 - 🔌 **本机有什么 Agent 就用什么。** 自动发现 Claude Code、Codex、Cursor、Gemini、opencode、Trae、Pi 等 ACP Agent，只列出本机真装了 CLI 的。
 - 💬 **飞书里直接 @ 它。** 私聊或群里 @ 机器人，过程和结果实时回写成一张卡片；多个 Agent 能在同一个群里互相发现、交接。
 - 🖥️ **一个 Web 工作台看全部。** 流式 Markdown、工具调用、权限请求、终端输出都持久化在 SQLite；排队、中断、重试一键完成；手机扫码就能接着聊。
@@ -74,10 +77,6 @@ pnpm build
 打开左下角「飞书设置」→「扫码创建机器人」，用飞书扫码授权，再选好工作区和 Agent 就能用。之后私聊机器人或在群里 @ 它即可。权限清单、群协作和高危门禁见[完整手册 · 飞书接入](docs/guide.zh-CN.md#飞书接入)。
 
 </details>
-
-## 界面一览
-
-<p align="center"><img src="docs/assets/readme/agentdock-tour.gif" alt="AgentDock 功能一览：一个工作台、飞书、小猫主会话、手机审批、开放 API" width="100%"></p>
 
 ## 工作原理
 
